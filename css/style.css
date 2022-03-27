@@ -63,7 +63,7 @@
   width: 80%;
 }
 
-input,
+.input,
 input::-webkit-input-placeholder {
   text-align: center;
   width: 100%;

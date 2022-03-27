@@ -16,16 +16,22 @@
       <div id="clock" class="clock">00:00</div>
       <form id="login-form" class="hidden">
         <input
+          class="input"
           required
           maxlength="15"
           type="text"
-          placeholder="what is your name ?"
+          placeholder="What is your name?"
         />
-        <input type="submit" value="log in" />
+        <input class="hidden" type="submit" value="log in" />
       </form>
       <h1 id="userGreeting" class="hidden"></h1>
       <form id="todo-form">
-        <input type="text" required placeholder="write your todo" />
+        <input
+          class="input"
+          type="text"
+          required
+          placeholder="What is your todo?"
+        />
       </form>
       <ul id="todo-list"></ul>
       <div id="quote" class="quote">
